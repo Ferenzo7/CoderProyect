@@ -1,0 +1,31 @@
+.grid-main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  margin: 70px 30px;
+}
+
+.grid-main-seccion-img {
+  display: flex;
+  align-items: center;
+}
+
+.img-main-index {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-noticias {
+  margin: 20px;
+  background-color: rgb(132, 169, 140);
+  text-align: center;
+}
+
+.div-container-list-event {
+  background-color: rgb(132, 169, 140);
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,41 @@
+/* mediaqueries */
+@media screen and (max-width: 450px) {
+  .nv-title {
+    display: none;
+  }
+}
+@media screen and (max-width: 768px) {
+  .grid-main {
+    grid-template-columns: 1fr;
+  }
+  .grid-disco {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .grid-disco .preview-disco-1,
+  .grid-disco .preview-disco-2,
+  .grid-disco .preview-disco-3,
+  .grid-disco .preview-disco-4,
+  .grid-disco .preview-disco-5,
+  .grid-disco .preview-disco-6 {
+    width: 100%;
+    max-width: 800px;
+  }
+  .grid-video {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .fotos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .subtitle-disco {
+    margin: 40px;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=mq.css.map */

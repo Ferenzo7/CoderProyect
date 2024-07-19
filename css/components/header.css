@@ -1,0 +1,22 @@
+.navbar {
+  background-color: rgb(160, 159, 154);
+  padding: 10px 20px;
+}
+
+.logotype {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  animation: deslizar 3s;
+}
+
+@keyframes deslizar {
+  0% {
+    margin-left: -200px;
+  }
+  100% {
+    margin-top: 0px;
+  }
+}
+
+/*# sourceMappingURL=header.css.map */

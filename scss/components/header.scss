@@ -1,0 +1,36 @@
+.navbar {
+    background-color: rgb(160, 159, 154);
+    padding: 10px 20px;
+}
+
+// .nav-top {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+// }
+
+.logotype {
+
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    animation: deslizar 3s;
+}
+
+@keyframes deslizar{
+
+    0%  {
+    margin-left: -200px;
+        }
+    100%    {
+    margin-top: 0px;
+    }
+}
+
+
+// .navigation {
+
+//     display: flex;
+//     justify-content: space-around;
+//     margin-top: 10px;
+// }
