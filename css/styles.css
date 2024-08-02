@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap");
+
 * {
   margin: 0px;
   padding: 0px;
@@ -44,10 +45,12 @@ p {
   0% {
     transform: rotate(0deg);
   }
+
   100% {
     transform: rotate(360deg);
   }
 }
+
 .grid-main {
   margin: 70px 30px;
 }
@@ -291,52 +294,64 @@ p {
     font-size: 1.5em;
     margin: 20px 0;
   }
+
   .list-group-item {
     flex: 0 0 100%;
     max-width: 100%;
   }
+
   .list-group-horizontal-lg {
     flex-direction: column;
   }
+
   .custom-bg {
     width: 100%;
     margin: 0px;
   }
+
   .main-text-img img {
     grid-template-columns: 1fr 1fr;
     align-content: center;
     width: 450px;
   }
+
   .main-text-img p {
     display: grid;
     grid-template-columns: 100%;
   }
+
   .content-item {
     align-items: center;
     grid: block;
     gap: 15px;
   }
+
   .grid-disco {
     display: flex;
     flex-direction: column;
     align-content: center;
   }
+
   .bg-color-contacto {
     display: grid;
     grid-template-columns: 1fr;
     margin: 50px;
   }
+
   .fotos-container {
     grid-template-columns: 1fr;
   }
+
   .portada-disk-1,
   .portada-disk-2,
   .portada-disk-3 {
     width: 500px;
   }
+
   .grid-video {
     grid-template-columns: 1fr;
   }
+
   .video-1 iframe,
   .video-2 iframe,
   .video-3 iframe,
@@ -346,44 +361,55 @@ p {
     width: 490px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .content-item {
     grid-template-columns: 1fr;
   }
+
   .main-noticias {
     width: 90%;
   }
+
   .custom-bg {
     width: 100%;
     margin: 0px;
   }
+
   .img-main-index {
     width: 100%;
     margin: 20px auto;
   }
+
   .grid-main {
     grid-template-columns: 1fr;
   }
+
   .title-disco h2 {
     display: flex;
     flex-direction: column;
     align-content: center;
   }
+
   .subtitle-disco {
     margin: 0px auto;
   }
+
   .fotos-container {
     grid-template-columns: 1fr;
   }
+
   .grid-video {
     grid-template-columns: 1fr;
     width: 100%;
   }
+
   .grid-disco {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+
   .video-1 iframe,
   .video-2 iframe,
   .video-3 iframe,
@@ -393,53 +419,65 @@ p {
     width: 300px;
     height: 240px;
   }
+
   .portada-disk-1,
   .portada-disk-2,
   .portada-disk-3 {
     width: 300px;
     height: 240px;
   }
+
   .fotos-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
   }
+
   .subtitle-disco {
     margin: 40px;
     text-align: center;
   }
+
   .title-disco {
     text-align: center;
   }
+
   .contact-main {
     display: flex;
     flex-direction: column;
     width: 100%;
     margin: 0px;
   }
+
   .bg-color-contacto {
     grid-template-columns: 1fr;
     margin: 120px;
   }
+
   .footer {
     width: 100%;
   }
 }
+
 @media screen and (max-width: 450px) {
   .nv-title {
     display: none;
   }
+
   .content-item {
     width: 400px;
   }
+
   .main-text-img p {
     display: grid;
     grid-template-columns: 100%;
   }
+
   .main-bg-disco {
     width: 100%;
   }
+
   .video-1 iframe,
   .video-2 iframe,
   .video-3 iframe,
@@ -449,162 +487,206 @@ p {
     width: 240px;
     height: 200px;
   }
+
   .portada-disk-1,
   .portada-disk-2,
   .portada-disk-3 {
     width: 240px;
     height: 200px;
   }
+
   .footer {
     width: 110%;
   }
+
   .contact-main {
     grid-template-columns: 1fr;
     width: 100%;
     margin: 15px;
     margin-top: 60px;
   }
+
   .bg-color-contacto {
     text-align: center;
   }
+
   .grid-disco {
     width: 100%;
   }
+
   .title-preview {
     width: 90%;
   }
+
   .main-noticias {
     width: 100%;
   }
+
   .grid-main {
     grid-template-columns: 1fr;
     margin: 10px;
   }
 }
+
 @media screen and (max-width: 425px) {
   .grid-main {
     width: 100%;
   }
+
   .main-text-img {
     width: 50%;
   }
+
   .main-text-img p {
     width: 90%;
     grid-template-columns: 1fr;
   }
+
   .main-text-img img {
     grid-template-columns: 1fr;
     align-content: center;
     width: 80%;
   }
+
   .content-item p {
     font-size: 18px;
     grid-template-columns: 1fr;
     margin: 10px;
   }
+
   .footer {
     width: 100%;
   }
+
   .main-bg-disco {
     padding: 50px 14px;
   }
+
   .grid-disco {
     margin: 0px;
   }
+
   .contact-main {
     width: 85%;
     height: 10%;
   }
+
   .bg-color-contacto {
     text-align: center;
     width: 100%;
   }
+
   .grid-disco {
     width: 100%;
   }
+
   .title-preview {
     width: 70%;
   }
+
   main.contact-main {
     width: 90%;
   }
+
   .main-noticias {
     width: 90%;
   }
 }
+
 @media screen and (max-width: 375px) {
   .grid-main {
     width: 100%;
   }
+
   .content-item p {
     width: 0%;
     margin: 40px;
   }
+
   .content-item img {
     width: 70%;
   }
+
   .main-text-img p {
     font-size: 22px;
     width: 60%;
   }
+
   .img-main-index {
     width: 80%;
   }
+
   .contact-main {
     width: 100%;
     margin: 20px;
   }
+
   .bg-color-contacto {
     text-align: center;
   }
+
   main.mdq-main {
     width: 100%;
   }
+
   .main-noticias {
     width: 100%;
     margin: 0px;
   }
+
   .title-preview {
     margin: 40px;
   }
+
   .footer {
     grid-template-columns: 1fr;
   }
 }
+
 @media screen and (max-width: 320px) {
   .navbar {
     width: 100%;
   }
+
   .grid-main {
     width: 100%;
   }
+
   .content-item p {
     width: 80%;
   }
+
   .content-item img {
     width: 70%;
   }
+
   .main-text-img p {
     font-size: 24px;
   }
+
   main.mdq-main {
     width: 120%;
     margin: 10px;
   }
+
   .footer {
     width: 130%;
   }
+
   .main-bg-disco {
     width: 100%;
   }
+
   .main-noticias {
     width: 100%;
     margin: 50px;
   }
+
   .contact-main {
     width: 105%;
     margin: 45px;
   }
+
   .video-1 iframe,
   .video-2 iframe,
   .video-3 iframe,
@@ -614,18 +696,22 @@ p {
     width: 240px;
     height: 200px;
   }
+
   .portada-disk-1,
   .portada-disk-2,
   .portada-disk-3 {
     width: 240px;
     height: 200px;
   }
+
   .custom-bg {
     margin: 0;
   }
+
   .grid-disco {
     width: 140%;
   }
+
   .title-preview {
     width: 110%;
   }
